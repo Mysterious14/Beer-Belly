@@ -1,0 +1,416 @@
+* {
+    padding: 0;
+    top: 0;
+    
+}
+.background {
+    content: " ";
+    background-image: url("back.jpg");
+    background-repeat:no-repeat;
+    
+    background-size: 100%;
+    display: block; 
+
+}
+    
+body{
+    
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    overflow-x: hidden;
+
+}
+.header {
+    
+    color: white;
+    text-align: right;
+    padding-right: 20px;
+    padding-left: 15px;
+    padding-top: 10px;
+    position: sticky;
+    font-size: 24pt;
+    display: block;
+    background: rgb(80, 49, 49);
+    opacity: 1;
+    overflow: hidden;
+    float: inline-start;
+    text-shadow: red 1px 1px 0, rgb(139, 45, 228) -1px -1px 0, 
+                 red -1px 1px 0, red 1px -1px 0;
+}
+
+.photo {
+    
+    display: block;
+    background: gray;
+
+}
+.img {
+    height: 500px;
+    width: 718px;
+    padding-top: 20px;
+    text-align: left;
+    padding-left: 30px;
+}
+.img-right {
+    height: 500px;
+    width: 718px;
+    padding-top: 20px;
+    text-align: right;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.logo {
+    color: rgb(250, 245, 245);
+    text-align: center;
+    font:bold;
+    position: relative;
+    font-size:30pt ;
+    text-shadow: red 1px 1px 0, red -1px -1px 0, 
+                 red -1px 1px 0, rgb(101, 44, 155) 1px -1px 0;
+}
+.menu {
+    text-align: center;
+    background: url("cartoshka2.jpg");
+    background-repeat:no-repeat;
+    background-size: 100%;
+    
+    content: " ";
+    font-size: 30pt;
+    text-shadow: #cad5e2 1px 1px 0, #ee0b7c 2px 2px 0, 
+    #cad5e2 3px 3px 0, #cad5e2 4px 4px 0, 
+    #011f41 5px 5px 0; 
+    color:black;
+}
+.rest {
+    text-align: center;
+    background: url("cae.jpg");
+    background-repeat:no-repeat;
+    background-size: 100%;
+    content: " ";
+    font-size: 30pt;
+    text-shadow: #07305f 1px 1px 0, #ee0b7c 2px 2px 0, 
+    #03142b 3px 3px 0, #68025a 4px 4px 0, 
+    #011f41 5px 5px 0; 
+    color:rgb(1, 5, 5);
+}
+.choise {
+    display: inline-block;
+    padding-right: 30px;
+    text-align: center;
+    text-shadow: #cad5e2 1px 1px 0, #ee0b7c 2px 2px 0, 
+    #cad5e2 3px 3px 0, #cad5e2 4px 4px 0, 
+    #011f41 5px 5px 0; 
+}
+
+.map {
+    color: white;
+    font-size: 30pt;
+    text-shadow: red 1px 1px 0, red -1px -1px 0, 
+                 red -1px 1px 0, rgb(101, 44, 155) 1px -1px 0;
+}
+.footer {
+
+    position: relative;
+    text-align: center;
+    color:white;
+    background: fixed;
+    font-size: 18pt;
+    display: block;
+    content: " ";
+    background-size: 100%;
+    background-repeat:no-repeat;
+    padding-top: 250px;
+    text-shadow: #fff -1px -1px 0, 
+                 #333 1px 1px 0;
+}
+
+@media(min-width: 1020px) and (max-width: 1366px) {
+    * {
+        padding: 0;
+        top: 0;
+        
+    }
+    .background {
+        content: " ";
+        background-image: url("back.jpg");
+        background-repeat:no-repeat;
+        width: 1500px;
+        height: 1500px;
+        background-size: 120%;
+        display: block; 
+    
+    }
+        
+    body{
+        
+        font-family: 'Times New Roman', Times, serif;
+        margin: 0;
+        overflow-x: hidden;
+    
+    }
+    .header {
+        height: 120px;
+        color: white;
+        text-align: right;
+        padding-right: 20px;
+        padding-left: 15px;
+        padding-top: 10px;
+        position: sticky;
+        font-size: 30pt;
+        display: block;
+        background: rgb(80, 49, 49);
+        opacity: 1;
+        overflow: hidden;
+        float: inline-start;
+        text-shadow: red 1px 1px 0, rgb(139, 45, 228) -1px -1px 0, 
+                     red -1px 1px 0, red 1px -1px 0;
+    }
+    
+    .photo {
+        
+        display: block;
+        background: gray;
+        width: 1500px;
+    
+    }
+    .img {
+        height: 500px;
+        width: 650px;
+        padding-top: 20px;
+        text-align: left;
+        padding-left: 60px;
+    }
+    .img-right {
+        height: 500px;
+        width: 650px;
+        padding-top: 60px;
+        text-align: right;
+        padding-left: 60px;
+        padding-right: 60px;
+
+    }
+    .logo {
+        color: rgb(250, 245, 245);
+        text-align: center;
+        font:bold;
+        position: relative;
+        font-size:30pt ;
+        padding-right: 10px;
+        padding-left: 10px;
+        text-shadow: red 1px 1px 0, red -1px -1px 0, 
+                     red -1px 1px 0, rgb(101, 44, 155) 1px -1px 0;
+    }
+    .menu {
+        text-align: center;
+        background: url("cartoshka2.jpg");
+        background-repeat:no-repeat;
+        background-size: 150%;
+        content: " ";
+        font-size: 30pt;
+        text-shadow: #cad5e2 1px 1px 0, #ee0b7c 2px 2px 0, 
+        #cad5e2 3px 3px 0, #cad5e2 4px 4px 0, 
+        #011f41 5px 5px 0; 
+        color:black;
+    }
+    .rest {
+        text-align: center;
+        background: url("cae.jpg");
+        background-repeat:no-repeat;
+        background-size: 100%;
+        content: " ";
+        font-size: 30pt;
+        text-shadow: #07305f 1px 1px 0, #ee0b7c 2px 2px 0, 
+        #03142b 3px 3px 0, #68025a 4px 4px 0, 
+        #011f41 5px 5px 0; 
+        color:rgb(1, 5, 5);
+        height: 600px;
+    }
+    .choise {
+        display: inline-block;
+        padding-right: 30px;
+        text-align: center;
+        text-shadow: #cad5e2 1px 1px 0, #ee0b7c 2px 2px 0, 
+        #cad5e2 3px 3px 0, #cad5e2 4px 4px 0, 
+        #011f41 5px 5px 0; 
+    }
+    
+    .map {
+        color: white;
+        font-size: 30pt;
+        text-shadow: red 1px 1px 0, red -1px -1px 0, 
+                     red -1px 1px 0, rgb(101, 44, 155) 1px -1px 0;
+    }
+    .footer {
+    
+        position: relative;
+        text-align: center;
+        color:white;
+        background: fixed;
+        font-size: 30pt;
+        display: block;
+        content: " ";
+        background-size: 100%;
+        background-repeat:no-repeat;
+        padding-top: 250px;
+        padding-bottom:50px;
+        text-shadow: #fff -1px -1px 0, 
+                     #333 1px 1px 0;
+    }
+}
+@media(min-width:360px)and (max-width:640px){
+    * {
+        padding: 0;
+        top: 0;
+        
+    }
+    .background {
+        content: " ";
+        background-image: url("back.jpg");
+        background-repeat:no-repeat;
+        width: 1450px;
+        height: 1000px;
+
+        display: block; 
+    
+    }
+        
+    body{
+        
+        font-family: 'Times New Roman', Times, serif;
+        margin: 0;
+        overflow-x: hidden;
+    
+    }
+    .header {
+        height: 150px;
+        color: white;
+        text-align: right;
+        padding-right: 20px;
+        padding-left: 15px;
+        padding-top: 10px;
+        position: sticky;
+        font-size: 30pt;
+        display: block;
+        background: rgb(80, 49, 49);
+        opacity: 1;
+        overflow: hidden;
+        float: inline-start;
+        text-shadow: red 1px 1px 0, rgb(139, 45, 228) -1px -1px 0, 
+                     red -1px 1px 0, red 1px -1px 0;
+    }
+    
+    .photo {
+        
+        display: block;
+        background: gray;
+    
+    }
+    .img {
+        height: 550px;
+        width:650px;
+        padding-top: 40px;
+        text-align: left;
+        padding-left: 46px;
+    }
+    .img-right {
+        height: 550px;
+        width:650px;
+        padding-top: 40px;
+        text-align: right;
+        padding-left: 45px;
+        padding-right: 20px;
+    }
+    .logo {
+        color: rgb(250, 245, 245);
+        text-align: center;
+        font:bold;
+        position: relative;
+        font-size:30pt ;
+        padding-right: 20px;
+        padding-left: 20px;
+        text-shadow: red 1px 1px 0, red -1px -1px 0, 
+                     red -1px 1px 0, rgb(101, 44, 155) 1px -1px 0;
+    }
+    .menu {
+        text-align: center;
+        background: url("cartoshka2.jpg");
+        background-repeat:no-repeat;
+        background-size: 150%;
+        
+        content: " ";
+        font-size: 30pt;
+        text-shadow: #cad5e2 1px 1px 0, #ee0b7c 2px 2px 0, 
+        #cad5e2 3px 3px 0, #cad5e2 4px 4px 0, 
+        #011f41 5px 5px 0; 
+        color:black;
+    }
+    .rest {
+        text-align: center;
+        background: url("cae.jpg");
+        background-repeat:no-repeat;
+        content: " ";
+        height: 600px;
+        background-size: 150%;
+        font-size: 30pt;
+        text-shadow: #07305f 1px 1px 0, #ee0b7c 2px 2px 0, 
+        #03142b 3px 3px 0, #68025a 4px 4px 0, 
+        #011f41 5px 5px 0; 
+        color:rgb(1, 5, 5);
+    }
+    .choise {
+        display: inline-block;
+        padding-right: 30px;
+        text-align: center;
+        text-shadow: #cad5e2 1px 1px 0, #ee0b7c 2px 2px 0, 
+        #cad5e2 3px 3px 0, #cad5e2 4px 4px 0, 
+        #011f41 5px 5px 0; 
+    }
+    
+    .map {
+        color: white;
+        font-size: 30pt;
+        text-shadow: red 1px 1px 0, red -1px -1px 0, 
+                     red -1px 1px 0, rgb(101, 44, 155) 1px -1px 0;
+    }
+    .footer {
+    
+        position: relative;
+        text-align: center;
+        color:white;
+        background: fixed;
+        font-size: 34pt;
+        display: block;
+        content: " ";
+        background-size: 100%;
+        background-repeat:no-repeat;
+        padding-top: 250px;
+        text-shadow: #fff -1px -1px 0, 
+                     #333 1px 1px 0;
+    }
+}
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
