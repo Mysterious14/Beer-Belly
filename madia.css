@@ -108,6 +108,14 @@ body{
     text-shadow: red 1px 1px 0, red -1px -1px 0, 
                  red -1px 1px 0, rgb(101, 44, 155) 1px -1px 0;
 }
+.design{
+    text-align: right;
+    font-size: 18pt;
+    text-shadow: #fff -1px -1px 0, 
+                 #333 1px 1px 0;
+    padding-right: 50px;
+    padding-bottom: 20px;
+}
 .footer {
 
     position: relative;
@@ -239,6 +247,14 @@ body{
         font-size: 30pt;
         text-shadow: red 1px 1px 0, red -1px -1px 0, 
                      red -1px 1px 0, rgb(101, 44, 155) 1px -1px 0;
+    }
+    .design{
+        text-align: right;
+        font-size: 18pt;
+        text-shadow: #fff -1px -1px 0, 
+                     #333 1px 1px 0;
+        padding-right: 50px;
+        padding-bottom: 20px;
     }
     .footer {
     
@@ -372,6 +388,14 @@ body{
         text-shadow: red 1px 1px 0, red -1px -1px 0, 
                      red -1px 1px 0, rgb(101, 44, 155) 1px -1px 0;
     }
+    .design{
+        text-align: right;
+        font-size: 18pt;
+        text-shadow: #fff -1px -1px 0, 
+                     #333 1px 1px 0;
+        padding-right: 50px;
+        padding-bottom: 20px;
+    }
     .footer {
     
         position: relative;
@@ -389,28 +413,3 @@ body{
     }
 }
 	
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
